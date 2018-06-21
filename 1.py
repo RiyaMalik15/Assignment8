@@ -56,9 +56,16 @@ print("Factorial:",math.factorial(n))
 print('*'*10)
 print('\n')
 
-print("Question7")
+print("Question8")
 import math
 x=int(input("Enter first number"))
 y=int(input("Enter second number"))
 print("Greatest common divisor:",math.gcd(x,y))
+print('*'*10)
+print('\n')
+
+print("Question9")
+import os
+print("Current Working Directory:",os.getcwd())
+print("User Environment:",os.environ)
 print('*'*10)
